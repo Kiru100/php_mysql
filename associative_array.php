@@ -8,9 +8,14 @@
 </head>
 <body>
     <?php 
-    $cards = array("Audi" => 50.500,"BMW"=> 40.700, "here"=>60.300);
+    $cars = array("Audi" => 50.500,"BMW"=> 40.700, "here"=> 60.300);
 
-    print_r($cards);
+    foreach($cars as $key => $value) {
+        echo "My " . $key . " has " . $value . "mileage <br>";
+    }
+
+
+   
     ?>
 </body>
 </html>
