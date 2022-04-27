@@ -33,9 +33,43 @@
 
         $average=($x + $y + $z)/3;
         echo "Average : ".number_format($average,2,'.','')
-
-    
     ?>
+
+    <h1>Exercise 4: Centimeters to Inches</h1>
+    <?php 
+        $countries = array("Netherland"=>"Amsterdam","Germany"=>"Berlin","Thailand"=>"Bangkok");
+
+        foreach ($countries as $key=>$value){
+            echo "The capital of ${key} is ${value} <br>";
+        }
+    ?>
+
+    <h1>Exercise Number 5;</h1>
+    <?php 
+        $cm = 150;
+        $inch = 0.39;
+        $cmToInch = $cm* $inch;
+
+        echo "${cm} centemeters is ${cmToInch} inches"
+    ?>
+
+<h1>Exercise 8</h1>
+<?php 
+    $expenses = array(1,2,3,4,5,6,6,7);
+    $totalAmount = 0 ;
+    $amountofExpenses = 0;
+
+    foreach($expenses as $expense){
+        $totalAmount = $totalAmount + $expense;
+        $amountofExpenses= $amountofExpenses+1;
+    }
+    echo "My ".$amountofExpenses." biggest expenses were ".$totalAmount;
    
+?>
+
+<h1>Exercise 7</h1>
+<?php 
+    $weather = array("rain","sunshine","clouds","hail","sleet","snow","wind");
+?>
 </body>
 </html>
