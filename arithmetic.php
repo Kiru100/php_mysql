@@ -10,6 +10,19 @@
     <?php 
         //Arithmetic operators
         //+ - * %
+        
+        //addition
+        $x = 5+5;
+        $y = 3;
+
+         //addition
+        echo $x+5;
+
+        //difference
+        echo "<br>";
+        echo $x-$y;
+
+        //
 
     ?>
     
