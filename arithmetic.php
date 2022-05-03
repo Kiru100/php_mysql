@@ -7,6 +7,11 @@
     <title>Arithmetic</title>
 </head>
 <body>
+    <?php 
+        //Arithmetic operators
+        //+ - * %
+
+    ?>
     
 </body>
 </html>
